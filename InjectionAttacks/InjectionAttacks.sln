@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "InjectionAttacks", "InjectionAttacks\", "{CEB8865F-84F5-4946-989C-B9376D0AD75E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54933"
+		Debug.AspNetCompiler.PhysicalPath = "InjectionAttacks\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54933\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54933"
+		Release.AspNetCompiler.PhysicalPath = "InjectionAttacks\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54933\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54933"
+		SlnRelativePath = "InjectionAttacks\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEB8865F-84F5-4946-989C-B9376D0AD75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB8865F-84F5-4946-989C-B9376D0AD75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80F195C5-DB6A-4E75-8137-3E6D3730D6CC}
+	EndGlobalSection
+EndGlobal
