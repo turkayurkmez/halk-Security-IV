@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityStepForREST", "SecurityStepForREST\SecurityStepForREST.csproj", "{BF86A91E-BBB0-4FD6-B9F9-A126593F4586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF86A91E-BBB0-4FD6-B9F9-A126593F4586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF86A91E-BBB0-4FD6-B9F9-A126593F4586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF86A91E-BBB0-4FD6-B9F9-A126593F4586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF86A91E-BBB0-4FD6-B9F9-A126593F4586}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F7E1F60-9D0E-43AB-8040-5A62349A18FD}
+	EndGlobalSection
+EndGlobal

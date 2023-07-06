@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Yasak";
+}
+
+<h1>Erişim engellendi</h1>
+<p>
+    Üzgünüm  @User.Identity.Name... Ne yazık ki bu sayfayı görmeye yetkin yok. Bunun haksızlık olduğunu düşünüyorsan tabii ki isyan edebilirsin.
+    Ama kayıtlarımıza göre durum bu.
+  @*  @if (User.IsInRole("Admin"))
+    {
+        
+    }*@
+</p>

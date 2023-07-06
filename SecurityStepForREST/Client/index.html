@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="btn">Hava durumu</button>
+    <ul id="weather">
+
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('#btn').on('click', function () {
+                $.ajax({
+                    url: 'https://localhost:7128/WeatherForecast',
+                    type: 'GET',
+                    headers: {
+                        'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFAYi5jb20iLCJuYmYiOjE2ODg2NDY4ODAsImV4cCI6MTY4ODczMzI4MCwiaXNzIjoic2VydmVyLmhhbGtiYW5rIiwiYXVkIjoiY2xpZW50LmhhbGtiYW5rIn0.0i-agibcuW3FSkn3eKLvV3E9q5WT-HLdtTQ_zusodq0' 
+                    },
+                    success: function (data) {
+                        $.each(data, function (index, element) {
+                            let li = $('<li>' + element.date + ' ' + element.summary + '</li>')
+                            $('#weather').append(li);
+                        })
+
+                    }
+                })
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
